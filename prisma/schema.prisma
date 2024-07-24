@@ -16,7 +16,7 @@ datasource db {
 model User {
   id_user_usr    Int      @id @default(autoincrement())
   des_email_usr  String   @unique
-  des_name_usr   String?
+  des_name_usr   String
   dta_insert_usr DateTime @default(now())
   dta_update_usr DateTime @updatedAt
 
